@@ -1,0 +1,15 @@
+@import url("https://rsms.me/inter/inter.css");
+:root {
+    --tblr-font-sans-serif: "Inter Var", -apple-system, BlinkMacSystemFont,
+        San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif;
+}
+body {
+    font-feature-settings: "cv03", "cv04", "cv11";
+}
+
+.page-wrapper .page-header {
+    margin: 0 !important;
+    padding: 12px !important;
+    background-color: white !important;
+    box-shadow: inset 0 -1px 0 0 var(--tblr-border-color-translucent);
+}
