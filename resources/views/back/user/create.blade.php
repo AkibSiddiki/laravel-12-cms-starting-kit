@@ -1,5 +1,5 @@
 @extends('back.layout.app')
-@section('title', 'Users List')
+@section('title', 'User Create')
 @section('page-header')
     <x-page-header pretitle="Create" title="User" />
 @endsection
