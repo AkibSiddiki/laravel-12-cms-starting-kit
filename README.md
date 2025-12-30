@@ -25,14 +25,19 @@ Follow the steps below to get the project up and running:
 
 ```bash
 git clone https://github.com/AkibSiddiki/laravel-12-cms-starting-kit.git
+
 cd laravel-12-cms-starting-kit
+
+rm -rf .git
 
 composer install
 
 cp .env.example .env
+
 php artisan key:generate
 
 php artisan migrate
+
 php artisan db:seed --class=AdminUserSeeder
 ```
 
