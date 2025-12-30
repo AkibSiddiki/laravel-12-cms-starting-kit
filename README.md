@@ -1,3 +1,4 @@
+<img width="2032" height="1105" alt="Screenshot 2025-12-30 at 3 31 04 PM" src="https://github.com/user-attachments/assets/14daaad2-c599-47ce-be3f-0f833f48af40" />
 # Laravel 12 Admin Starter Kit
 
 Built with **Tabler** (Bootstrap 5)
