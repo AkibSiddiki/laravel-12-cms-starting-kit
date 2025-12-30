@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Login to Admin Panel | {{ config('app.name') }} </title>
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="description" content="Admin panel login page for {{ config('app.name') }}" />
+    <link rel="icon" href="{{ asset('assets/back/static/favicon.ico') }}" type="image/x-icon" />
     <!-- CSS files -->
     <link href="{{ asset('assets/back/dist/css/tabler.min.css') }}" rel="stylesheet" />
     <link href="{{ asset('assets/back/dist/css/app.css') }}" rel="stylesheet" />
