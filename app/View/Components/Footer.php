@@ -15,8 +15,8 @@ class Footer extends Component
     public int $year;
 
     public function __construct(
-        string $company = 'eMythMakers.com',
-        string $url = 'https://emythmakers.com',
+        string $company = 'companyname.com',
+        string $url = 'https://companyname.com',
         string $version = 'v1.0.07',
         ?int $year = null
     ) {

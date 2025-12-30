@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="robots" content="noindex, nofollow" />
     <title>@yield('title') - Admin Panel | {{ config('app.name') }}</title>
     {{-- favicon --}}
     <link rel="icon" href="{{ asset('assets/back/static/favicon.ico') }}" type="image/x-icon" />
@@ -26,7 +27,7 @@
                 @yield('content')
             </div>
             <!-- Page footer -->
-            <x-footer company="eMythMakers.com" url="https://emythmakers.com" version="v1.0.2" />
+            <x-footer company="companyname.com" url="https://companyname.com" version="v1.0.2" />
         </div>
     </div>
     <!-- Libs JS scripts -->
