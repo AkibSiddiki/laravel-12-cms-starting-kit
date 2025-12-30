@@ -23,8 +23,8 @@ A lightweight and reusable Laravel 12 starter project featuring a clean admin pa
 Follow the steps below to get the project up and running:
 
 ```bash
-git clone <repository-url>
-cd <project-directory>
+git clone https://github.com/AkibSiddiki/laravel-12-cms-starting-kit.git
+cd laravel-12-cms-starting-kit
 
 composer install
 
