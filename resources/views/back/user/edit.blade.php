@@ -9,7 +9,7 @@
             <form class="card" method="POST" action="{{ route('back.user.update', $user->id) }}">
                 @csrf
                 <div class="card-body">
-                    <h3 class="card-title">Edit Profile</h3>
+                    <h3 class="card-title">Edit User</h3>
                     <div class="row row-cards">
                         <div class="col-sm-6">
                             <label class="form-label required" for="name">Name</label>
