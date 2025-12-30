@@ -5,6 +5,13 @@
 }
 body {
     font-feature-settings: "cv03", "cv04", "cv11";
+    background-color: #f8fafc;
+    background-image: radial-gradient(
+        circle at 1px 1px,
+        rgba(0, 0, 0, 0.05) 1px,
+        transparent 0
+    );
+    background-size: 16px 16px;
 }
 
 .page-wrapper .page-header {
