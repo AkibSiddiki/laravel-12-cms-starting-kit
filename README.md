@@ -56,7 +56,6 @@ This repository is intended to be used as:
 
 -   A starter template for new Laravel projects
 -   A shared base for team development
--   A foundation that can be extended with roles, permissions, APIs, or domain-specific features
 
 ## 📄 License
 
