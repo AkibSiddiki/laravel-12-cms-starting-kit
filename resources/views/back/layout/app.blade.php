@@ -51,6 +51,7 @@
     <!-- Libs JS scripts -->
     <script src="{{ asset('assets/back/dist/js/tabler.min.js') }}" defer></script>
     <script src="{{ asset('assets/back/dist/js/app.js') }}" defer></script>
+    @stack('script')
 </body>
 
 </html>
